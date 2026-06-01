@@ -1,15 +1,16 @@
-# Travello - Django Travel Website
+# Crime Management System using Django
 
-Travello is a Django-based travel website project with a responsive landing page and basic user authentication. Users can register, log in, log out, and view a travel-themed homepage built with HTML, CSS, Bootstrap, JavaScript, and Django templates.
+Crime Management System is a Django-based web application created for managing user access and providing a foundation for an online crime reporting or crime record management platform. The frontend design is inspired by the Travello template, while the project structure is built using Django.
 
 ## Features
 
-- Travel landing page with responsive design
 - User registration
 - User login and logout
 - Django authentication system
-- Static assets including CSS, JavaScript, images, Bootstrap, Font Awesome, and carousel plugins
-- SQLite database support
+- Homepage with responsive frontend design
+- Static files support for CSS, JavaScript, images, Bootstrap, and Font Awesome
+- SQLite database configuration
+- Admin panel support through Django admin
 
 ## Tech Stack
 
@@ -25,9 +26,9 @@ Travello is a Django-based travel website project with a responsive landing page
 
 ```text
 crimesystem/
-├── accounts/          # User authentication views and URLs
-├── crimesystem/       # Main Django project settings and URLs
-├── static/            # CSS, JS, images, and plugins
+├── accounts/          # Handles user registration, login, and logout
+├── crimesystem/       # Main Django project settings and URL configuration
+├── static/            # CSS, JavaScript, images, and frontend assets
 ├── templates/         # HTML templates
-├── travello/          # Main homepage app
-└── manage.py
+├── travello/          # Homepage app and frontend template views
+└── manage.py          # Django project management file
